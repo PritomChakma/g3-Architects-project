@@ -123,6 +123,10 @@ main {
 .feature-section-title {
   padding: 10px;
 }
+.feature-section-img {
+  width: 100%;
+}
+
 /* for mobile device */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -136,11 +140,23 @@ main {
   .team-section-title {
     margin-left: 20px;
   }
+  .feature-section {
+    display: grid;
+  }
+  .feature-section-img {
+    width: 100%;
+  }
+  .feature-section-title > p {
+    flex-direction: column;
+  }
 }
 
 /* for mdium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .teams {
     flex-direction: column;
+  }
+  .feature-section {
+    display: grid;
   }
 }
