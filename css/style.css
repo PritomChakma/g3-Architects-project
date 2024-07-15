@@ -216,7 +216,8 @@ main {
   .navbar,
   .nav-link,
   .teams,
-  .sponsor-title {
+  .sponsor-title,
+  .feature-section-img {
     flex-direction: column;
   }
   .tem-section-img,
